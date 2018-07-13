@@ -1,0 +1,86 @@
+[
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "44\" Umbrella LED Flashlight",
+    "image": "assets/img/umbrella-led-flashlight.jpeg",
+    "price": 14.95,
+    "description": "Auto-open umbrella has a pongee polyester shell. Rubber spray handle holds swivel LED flashlight with red hazard light. Fiberglass ribs. Protective sleeve. Batteries included. Ground ship only. 44\" arc. Import. Screen Print. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Shifter Bag",
+    "image": "assets/img/shifter-bag.jpeg",
+    "price": 59.95,
+    "description": "Polyester. Flapover closure with snap buckles; padded compartments for up to 17\" laptop and tablet/ereader pocket with anti scratch lining; front zip pockets; recessed dual-access side pockets; pass-through trolley sleeve; padded, adjustable shoulder strap. 18-3/4\"x12\"x4\". Laser engraving. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Elleven Wheeled TSA Backpack",
+    "image": "assets/img/elleven-wheeled-tsa-backpack.jpeg",
+    "price": 110.25,
+    "description": "Laptop-only section opens and lays flat for checkpoint inspections. Holds up to most 17\" laptops. Zip main compartment with file dividers. Zip media pocket with audio port. Front zip pocket with organizer. Padded valuables pocket. Three side zip pockets. Padded handle. Telescoping handle. Inline wheels. Hideaway backpack straps. TSA certified. Dimensions: 12\"W x 18\"H x 6-1/2\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Ogio Half Dome Duffel",
+    "image": "assets/img/ogio-half-dome-duffel.jpeg",
+    "price": 24.75,
+    "description": "600-denier polyester/420-denier dobby polyester with all metal hardware. Zip front media pocket. Front sleeve pocket. Ventilated shoe compartment. Side grab handle. Fabric-wrapped handle. Detachable, adjustable shoulder strap. Bags not intended for use by children 12 and under. Includes California Prop 65 hangtag. Lifetime guarantee by manufacturer. Import. Dimensions: 18\"W x 10\"H x 9\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Blackhawk Backpack",
+    "image": "assets/img/blackhawk-backpack.jpeg",
+    "price": 34.00,
+    "description": "1680-denier polyester with reflective trim. Padded vertical computer sleeve fits up to 15\" laptop. MP3 zip pocket with audio port. Zip front organizer pocket with multiple internal pockets and key holder, zip front pocket with carabiner and web loops and side mesh pockets. Adjustable side straps, rubber grab handle and padded, adjustable shoulder straps. Ventilated, air-comfort, padded back. Dimensions: 20\"W x 10\"H x 12-1/2\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Elleven 22\" Duffel",
+    "image": "assets/img/elleven-22-duffel.jpeg",
+    "price": 40.95,
+    "description": "Dot dobby polyester and sueded furong polyester. U-shaped zip main compartment opening. Zip front zip pocket with tech organizer. Ventilated side pocket for shoes or damp items. Side zip Accessory pocket. Outside shock cord for additional storage. Web handles. Detachable/adjustable shoulder strap. Dimensions: 22\"W x 12\"H x 10\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Nike Messenger Bag",
+    "image": "assets/img/nike-messenger-bag.jpeg",
+    "price": 62.75,
+    "description": "150 x 300-denier polyester and 1680-denier ballistic nylon with 150-denier polyester lining. Flap top with zip pocket. Padded sleeve for up to 15\" laptop. Organizational panel. Web grab handle. Adjustable/detachable padded shoulder strap. Swoosh imprint. Dimensions: 16\"W x 11\"H x 3-3/4\"D. Import. Embroidery. Anthracite/Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Elleven Drive Duffel",
+    "image": "assets/img/elleven-drive-duffel.jpeg",
+    "price": 42.50,
+    "description": "Ripstop nylon and 600-denier polycanvas. U-shaped zip main compartment opening. Front zip band with audio port. Removable Tech Trap organizer. Ventilated side pocket for shoes or wet items. Zip side pocket with elastic shock cord. Open insulated bottle pocket. Web handles with comfort wrap. Padded shoulder strap is adjustable and detachable. Dimensions: 24\"W x 12\"H x 10-1/2\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Alternative Apparel Duffel",
+    "image": "assets/img/alternative-apparel-duffel.jpeg",
+    "price": 51.25,
+    "description": "100% cotton canvas with genuine leather trim, reinforced stitching and cotton lining. Zip top. Side and inside pockets. Removable cotton webbing shoulder strap. Alternative details. Dimensions: 20\"W x 10-1/2\"H x 10-1/2\"D. Import. Embroidery. Charcoal."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Solo&reg; Urban Code Backpack",
+    "image": "assets/img/solo-urban-code-backpack.jpeg",
+    "price": 51.50,
+    "description": "Denim-feel polyester and simulated leather. Dual snap closure. Padded compartment for up to 15-5/8\" laptop. Tablet/e-reader pocket. Zip front pocket with simulated leather flap. Side zip pocket. Padded carry handle. Padded air mesh back and adjustable shoulder straps. Poly-bagged. Dimensions: 12-1/4\"W x 18\"H x 5\"D. Screen Print. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Elleven Checkpoint Backpack",
+    "image": "assets/img/elleven-checkpoint-backpack.jpeg",
+    "price": 53.95,
+    "description": "Dot dobby nylon with sueded polyester blend trim. Designed to unfold so up to 17\" laptop in own section is visible for airport security inspections without removal. Zip main compartment with file dividers. Removable techtrap elastic organizer panel. Front zip pocket with organizer. Zip file under flap. Roomy zip side pockets. Zip media pocket with audio port. Front hidden pockets. Yoke-style handle. Padded back and shoulder straps. Back panel slips over trolley handle. TSA guide tag. Bulk packed. Import. Dimensions: 16-1/2\"W x 19\"H x 9\"D. Import. Embroidery. Black."
+  },
+  {
+    "_class": "com.apbg.webstore.productservice.domain.Product",
+    "name": "Samsonite Computer Bag",
+    "image": "assets/img/samsonite-computer-bag.jpeg",
+    "price": 57.95,
+    "description": "420-denier nylon twill. Zip top. Padded compartment for up to 15-5/8\" laptop. Pocket with polyester fleece lining for up to 10\" tablet. Pockets for files and accessories. Front pocket with magnetic closure. 25\" shoulder straps. Dimensions: 18-1/2\"W x 12-3/4\"H x 4-1/2\"D. Import. Embroidery. Black."
+  }
+]

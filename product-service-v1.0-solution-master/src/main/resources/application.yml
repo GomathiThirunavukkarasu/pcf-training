@@ -1,0 +1,34 @@
+spring:
+  profiles:
+    active: production
+  jpa:
+    hibernate:
+      ddl-auto: update
+---
+spring:
+  profiles: development, test
+  h2:
+    console:
+      path: /h2
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=false;DB_CLOSE_DELAY=-1
+    username: sa
+    password:
+    platform: h2
+    driver-class-name: org.h2.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+---
+spring:
+  profiles: production
+  datasource:
+    url: ${cloud.services.mysql.connection.jdbcurl:jdbc:h2:mem:test;DB_CLOSE_ON_EXIT=false;DB_CLOSE_DELAY=-1}
+    username: ${cloud.services.mysql.connection.username:sa}
+    password: ${cloud.services.mysql.connection.password:}
+    tomcat:
+      test-on-borrow: true
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL55Dialect
