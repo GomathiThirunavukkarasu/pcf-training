@@ -1,0 +1,43 @@
+groups:
+- name: product-service-deploy
+  jobs:
+  - deploy
+  - unit-test
+
+resources:
+  - name: source-code
+    type: git
+    check_every: 10s
+    source:
+      uri: ((sourceGitURL))
+      branch: ((sourceGitBranch))
+      private_key: ((gitPrivateKey))
+  - name: deploy-cf
+    type: cf
+    source:
+      api: https://api.sys.apbg.apcf.io
+      username: ((stageCFUsername))
+      password: ((stageCFpass))
+      organization: ((stageCFOrg))
+      space: ((stageCFSpace))
+      skip_cert_check: false
+
+jobs:
+- name: unit-test
+  plan:
+  - get: source-code
+    trigger: true
+  - task: unit-test
+    file: source-code/ci/unit-test.yml
+- name: deploy
+  plan:
+  - get: source-code
+    trigger: true
+    passed:
+      - unit-test
+  - task: build
+    file: source-code/ci/build.yml
+  - put: deploy-cf
+    params:
+      manifest: source-code/ci/manifest.yml
+      path: build-output/product-service-2.0.0.jar

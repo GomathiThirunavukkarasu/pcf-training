@@ -1,0 +1,7 @@
+applications:
+- name: product-service-deploy
+  memory: 750MB
+  instances: 1
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  services:
+    - mysql

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <title></title>
+  <script type='text/javascript'>
+    const l = window.location;
+    if (l.hash) {
+      const hash = l.hash.substr(1);
+      const hashArray = hash.split('&');
+      const hashPair = {};
+      hashArray.forEach(h => {
+        const obj = h.split('=');
+      hashPair[obj[0]] = obj[1];
+    });
+      window.localStorage.setItem('PCF-loggedIn', 'true');
+      window.localStorage.setItem('PCF-token', hashPair.access_token);
+    }
+    l.replace(`${l.protocol}//${l.hostname}`);
+  </script>
+</head>
+
+<body></body>
+
+</html>

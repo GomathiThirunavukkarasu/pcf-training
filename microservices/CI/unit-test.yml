@@ -1,0 +1,20 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: openjdk
+    tag: 8u171-jdk
+
+inputs:
+- name: source-code
+
+run:
+  path: sh
+  args:
+  - -exc
+  - |
+    env
+    chmod -R 777 source-code
+    cd source-code/
+    ./gradlew test --refresh-dependencies

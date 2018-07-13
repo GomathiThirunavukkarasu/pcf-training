@@ -1,0 +1,23 @@
+platform: linux
+
+image_resource:
+  type: docker-image
+  source:
+    repository: openjdk
+    tag: 8u171-jdk
+
+inputs:
+- name: source-code
+
+outputs:
+- name: build-output
+
+run:
+  path: sh
+  args:
+  - -exc
+  - |
+    chmod -R 777 source-code
+    cd source-code/
+    ./gradlew assemble --refresh-dependencies
+    cp ./build/libs/product-service-2.0.0.jar ../build-output/product-service-2.0.0.jar
